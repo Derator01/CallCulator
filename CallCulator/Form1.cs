@@ -310,7 +310,8 @@ namespace CallCulator
                     break;
                 case 8:
                     {
-
+                        ID = 9
+                        
                     }
                     break;
                 case 9:
@@ -390,6 +391,11 @@ namespace CallCulator
         {
             Wright = true;
             ID = 7;
+        }
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Wright = true;
+            ID = 8;
         }
     }
 }
